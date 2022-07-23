@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset= "UTF-8" />
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0" />
+    <meta http-equiv= "X-UA-Compatible" content= "ie=edge" />
+    <title>Interactive website</title>
+    <link rel= "stylesheet" href= "app-styles.css">
+
+        <!-- Fontawesome CDN Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+    <!-- <header>
+      <h1> <img src="./pictures/farhanFB.jpg" id="logo" alt="logo"> Farhan at Xerde</h1>
+  </header>
+  <nav>
+      <a href="./index.html"> Home </a> |
+      <a href="./contactus.html"> Contact Us </a> |
+      <a href="./gallery.html"> Gallery </a> |
+      <a href="./applicationform.html"> Application Form </a> |
+      <a href="./studentdata.html"> Student Data </a> |
+      <a href="./aboutus.html"> About Us </a> 
+  </nav> -->
+
+  <header>
+    <div class="logo">
+        <img src="./images/PricewaterhouseCoopers_Logo.png" alt="" width="40px" height="40px">
+    </div>
+    <h1>PwC Website</h1>
+
+    <nav>
+        <ul class="main-menu">
+            <li>
+                <a href="./index.html">Home | </a>
+            </li>
+            <li>
+                <a href="./contactus.html">Contact | </a>
+            </li>
+            <li>
+                <a href="./about.html">About | </a>
+            </li>
+            <li>
+                <a href="./gallery.html">Gallery | </a>
+            </li>
+            
+            <li>
+                <a href="./application.html">Apply</a>
+            </li>
+        </ul>
+      </nav>
+</header>
+  <section class="app-info">
+    <h2>Apply to Join the Group!</h2>
+    <p>
+      Apply to join the bootcamp. 
+      At the academy, we not only concerned with teaching your coding skills, we awill also be teaching you interpersonal
+      and communication skills.
+    </p>
+  </section>
+
+  <section class="form-container">
+    <form id= "my-form">
+      <h3>Application Form</h3>
+      <div>
+        <label for="name">Name:*</label>
+        <input type="text" id="name" required>
+      </div>
+      <div>
+        <label for="email">Email:*</label>
+        <input type="text" id="email" required>
+      </div>
+      <div>
+        <label for="track">Track:*</label>
+        <select name="track" id="track" required>
+          <option value="">Select a track</option>
+          <option value="fullstack">Fullstack</option>
+          <option value="backEnd">BackEnd</option>
+          <option value="frontEnd">FrontEnd</option>
+          <option value="uiux">UI/UX</option>
+          <option value="other">Other</option>
+        </select>
+        <label for="other-track">Other:</label>
+        <input type="text" name="other" id="other-track">
+      </div>
+      <input class="btn" type="submit" value="Submit">
+      <div class="msg"></div>
+    </form>   
+  </section>
+
+  <section>
+    <h3>Our Clients</h3>
+    <div>
+      <table id="submitted-details">
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Track</th>
+        </tr>
+      </table>
+
+    </div>
+  </section>
+
+  <!-- <footer>
+    <div class="logo">
+        <img id="footer-logo" src="./pictures/PricewaterhouseCoopers_Logo.png" alt="" width="40px" height="40px">
+    </div>
+    <nav>
+        <ul class="main-menu">
+            <li>
+                <a href="./index.html">Home</a> |
+            </li>
+            <li>
+                <a href="./contactus.html">Contact</a> |
+            </li>
+            <li>
+                <a href="./aboutus.html">About</a> |
+            </li>
+            
+            <li>
+                <a href="./applicationForm.html">Apply</a>
+            </li>
+        </ul>
+    </nav>
+  </footer> -->
+
+  <footer>
+    <div class="container">
+        <div>
+            <div class="logo">
+                <img src="./images/PricewaterhouseCoopers_Logo.png" alt="" width="40px" height="40px">
+            </div>
+            <h1>PwC Tech Bootcamp</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutu.html">About</a></li>
+                    <li><a href="./contactus.html">Contact</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./applicationForm.html">Apply</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-item"><img src="./images/pwcpics1.jpeg" alt=""></div>
+            <div class="gallery-item"><img src="./images/pwcpics2.jpeg" alt=""></div>
+            <div class="gallery-item"><img src="./images/pwcpics3.jpeg" alt=""></div>
+            <div class="gallery-item"><img src="./images/pwcpics4.jpeg" alt=""></div>
+            <div class="gallery-item"><img src="./images/pwcpics2.jpeg" alt=""></div>
+            <div class="gallery-item"><img src="./images/pwcpics1.jpeg" alt=""></div>
+        </div>
+
+        <div class="social">
+            <p>Follow us on</p>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>  
+    <hr>
+    <p id="copy">Copyright &copy; 2022</p>
+</footer>
+
+
+
+    
+
+    <script src="./app-script.js"></script>
+  </body>
+</html>

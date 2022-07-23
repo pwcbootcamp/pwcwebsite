@@ -1,0 +1,67 @@
+/* ===== Colours ===== */
+:root {
+    --body-color: #e4e9f7;
+    --nav-color: #4070f4;
+    --side-nav: #010718;
+    --text-color: #4070f4;
+    --search-bar: #f2f2f2;
+    --search-text: #010718;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--body-color);
+}
+
+
+body.dark {
+    --body-color: #18191a;
+    --nav-color: #242526;
+    --text-color: #fff;
+}
+
+body.dark #learn {
+    color: #fff !important;
+}
+
+body.dark header {
+    background-color: gray;
+    color: #fff;
+}
+
+.dark-light-box {
+    display: flex;
+    align-items: center;
+}
+
+.dark-light {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.dark-light i {
+    position: absolute;
+    color: #000;
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dark-light i.sun {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.dark-light.active i.sun {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.dark-light.active i.moon {
+    opacity: 0;
+    pointer-events: none;
+}
