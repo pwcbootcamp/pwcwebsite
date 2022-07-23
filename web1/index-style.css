@@ -1,0 +1,269 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 5px;
+    /* background: #f4f4f4; */
+    margin: 5px 0;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 3rem 2rem;
+}
+
+#my-form {
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+#my-form label {
+    display: block;
+}
+
+#my-form input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #444;
+}
+
+.bg-dark {
+    background: #333;
+    /* color: #fff; */
+}
+
+.error {
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Global Styles */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Card */
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+nav {
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+/* Hero styles */
+.hero {
+    background-image: url('./images/pwc-nigeria-techtalent-bootcamp-2022.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: -2;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 46px;
+    margin: -20px 0 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/* Content Section */
+
+.content {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content h2 {
+    margin: 0;
+    color: #000;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    margin: 10px 10px;
+    transition: transform 0.2s ease-in;
+}
+
+.card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+}
+
+
+/* Footer Styles */
+
+footer {
+    background: #002240;
+    color: #fff;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    background: transparent;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+footer ul {}
+
+footer ul li {
+    margin: 0;
+
+}
+
+footer ul li a {
+    font-size: 12px;
+}
+
+/* Gallery Grid */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.gallery-item {
+    /* border: 1px solid red; */
+    width: 100px;
+}
+
+.gallery-item img {
+    width: 100%;
+}
+
+footer .social a {
+    font-size: 2rem;
+    margin: 0 10px;
+    transition: transform 0.4s ease-in-out;
+}
+
+
+footer .social a:hover {
+    color: pink;
+    font-size: 1.5rem;
+    transform: translateY(-15px);
+}
+
+footer hr,
+footer #copy {
+    color: #ddd;
+}
+
+footer #copy {
+    text-align: center;
+}

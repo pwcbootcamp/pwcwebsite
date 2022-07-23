@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  padding: 5px;
+  margin: 5px 0;
+}
+header {
+  background: #F4F4F4;
+  padding: 1rem;
+  text-align: center;
+}
+/* header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav ul {
+display: flex;
+}
+
+nav a {
+color: black;
+text-decoration: none;
+font-size: 18px;
+}
+
+nav a:hover {
+color: red;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 3rem 2rem;
+  font-size: 25px;
+  text-align: center;
+  background: url(./images/pwc-nigeria-techtalent-bootcamp-2022.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.about-section {
+  padding: 5rem 22rem 0;
+  color: black;
+  font-size: 18px;
+}
+/* column card styles */
+.content-container{
+  min-height: 100vh;
+  /* text-align: center; */
+  padding: 2% 6%;
+}
+
+.content-container h1{
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  color: black;
+  margin-bottom: 0.8rem;
+  text-align: center;
+  font-size: 25px;
+}
+
+.content-container .column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  /* flex-wrap: wrap; */
+}
+
+.content-container .column .card{
+  width: 20rem;
+  height: 40rem;
+  margin: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.content-container .column .card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-container .column .info{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* .container .column .card .info .btn a{
+  /* top: 35%;
+  /* left: 50%; */
+  /* padding: 0.5rem 1.0rem;
+  font-size: 1rem;
+  background: transparent;
+  margin-top: 1.2rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+} */ */ */
+
+.services .content-container .box .info .btn:hover{
+  background-color: #EB7D24;
+  color: white;
+}
+
+.services .content-container .box .info h3{
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+
+.services .content-container .box .info p{
+  line-height: 2;
+  color: white;
+  font-size: 1rem;
+  padding: 0 1rem;
+  margin-bottom: 1.2rem;
+}
+/* btn */
+.btn a{
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.btn{
+  border-radius: 0.5rem;
+  background: transparent;
+  padding: 0.5rem 1.0rem;
+  margin-top: 1.3rem;
+
+}
+
+.btn:hover{
+  font-weight: bold;
+}
+
+/* footer */
+footer {
+  background: #002240;
+  color: #fff;
+  padding: 20px;
+}
+
+footer a {
+  color: #fff;
+  background: transparent;
+}
+
+footer .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+
+
+footer ul li {
+  margin: 0;
+
+}
+
+footer ul li a {
+  font-size: 12px;
+}
+
+/* Gallery Grid */
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.gallery-item {
+  /* border: 1px solid red; */
+  width: 100px;
+}
+
+.gallery-item img {
+  width: 100%;
+}
+
+footer .social a {
+  font-size: 2rem;
+  margin: 0 10px;
+  transition: transform 0.4s ease-in-out;
+}
+
+
+footer .social a:hover {
+  color: pink;
+  font-size: 1.5rem;
+  transform: translateY(-15px);
+}
+
+footer hr,
+footer #copy {
+  color: #ddd;
+}
+
+footer #copy {
+  text-align: center;
+}

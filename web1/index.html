@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive website</title>
+
+    <link rel="stylesheet" href="./index-style.css">
+
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Site Mode CSS -->
+    <link rel="stylesheet" href="./sitemode.css">
+
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+            <img src="./images/PricewaterhouseCoopers_Logo.png" alt="" width="40px" height="40px">
+        </div>
+        <h1>PwC Website</h1>
+    
+        <nav>
+            <ul class="main-menu">
+                <li>
+                    <a href="./index.html">Home | </a>
+                </li>
+                <li>
+                    <a href="./contactus.html">Contact | </a>
+                </li>
+                <li>
+                    <a href="./about.html">About | </a>
+                </li>
+                <li>
+                    <a href="./gallery.html">Gallery | </a>
+                </li>
+                
+                <li>
+                    <a href="./application.html">Apply</a>
+                </li>
+                <li class="dark-light-box">
+                    <div class="dark-light">
+                        <i class='bx bx-moon moon'></i>
+                        <i class='bx bx-sun sun'></i>
+                    </div>
+                </li>
+            </ul>
+          </nav>
+    </header>
+    <!-- Navigation -->
+   
+
+    <!-- Main -->
+    <main class="hero">
+        <section class="container">
+            <h1>Welcome to PwC Tech Talent Bootcamp</h1>
+            <p>Get the latest skill you need</p>
+        </section>
+    </main>
+    
+
+    <section class="content">
+        <h2 class="container" id="learn">
+            What You'll Learn
+        </h2>
+
+        <div class="container flex">
+            <div class="card">
+                <h4>Node.js</h4>
+                <img src="./images/logos/node.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Python</h4>
+                <img src="./images/logos/python.png" alt="">
+            </div>
+            <div class="card">
+                <h4>CSharp</h4>
+                <img src="./images/logos/csharp.png" alt="">
+            </div>
+            <div class="card">
+                <h4>PHP</h4>
+                <img src="./images/logos/php.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Clojure</h4>
+                <img src="./images/logos/clojure.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Ruby</h4>
+                <img src="./images/logos/ruby.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Scala</h4>
+                <img src="./images/logos/scala.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div>
+                <div class="logo">
+                    <img src="./images/PricewaterhouseCoopers_Logo.png" alt="" width="40px" height="40px">
+                </div>
+                <h1>PwC Tech Bootcamp</h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li><a href="./applicationForm.html">Apply</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+
+            <div class="gallery">
+                <div class="gallery-item"><img src="./images/pwcpics1.jpeg" alt=""></div>
+                <div class="gallery-item"><img src="./images/pwcpics2.jpeg" alt=""></div>
+                <div class="gallery-item"><img src="./images/pwcpics3.jpeg" alt=""></div>
+                <div class="gallery-item"><img src="./images/pwcpics4.jpeg" alt=""></div>
+                <div class="gallery-item"><img src="./images/pwcpics2.jpeg" alt=""></div>
+                <div class="gallery-item"><img src="./images/pwcpics1.jpeg" alt=""></div>
+            </div>
+
+            <div class="social">
+                <p>Follow us on</p>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>  
+        <hr>
+        <p id="copy">Copyright &copy; 2022</p>
+    </footer>
+
+
+    <!-- Mode Changing Script-->
+    <script src="./sitemode.js"></script>
+  </body>
+</html>
