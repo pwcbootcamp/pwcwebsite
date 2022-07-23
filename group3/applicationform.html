@@ -1,0 +1,182 @@
+<html>
+  <head>
+    <title>PwC Webiste</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="pwc.jpeg" width="40" height="40" />
+      </div>
+      <div>
+        <h3>PwC Website</h3>
+      </div>
+      <div>
+        <ul>
+          <a href="index.html">Home</a>
+          <a href="contactus.html">Contact Us</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="applicationform.html" class="active">Application Form</a>
+          <a href="aboutus.html">About Us</a>
+          <a href="studentsdata.html">Students Data</a>
+        </ul>
+      </div>
+    </header>
+    <section class="container">
+      <h2>Application Form</h2>
+      <form id="my-form">
+        <div class="msg"></div>
+        <label for="firstname">First Name:</label>
+        <input name="firstname" id="firstname" type="text" placeholder="Input your First Name" />
+        <label for="lastname">Last Name:</label>
+        <input name="lastname" id="lastname" type="text" placeholder="Input your Last Name"></input>
+        <label for="age">Age:</label>
+        <input for="age" name="age" id="age" type="number" placeholder="Input your Age" />
+        <label for="state">State:</label>
+        <select id="state">
+          <option value="Abia">
+            Abia
+          </option>
+          <option value="Adamawa">
+            Adamawa
+          </option>
+          <option value="Akwa Ibom">
+            Akwa Ibom
+          </option>
+          <option value="Anambra">
+            Anambra
+          </option>
+          <option value="Bauchi">
+            Bauchi
+          </option>
+          <option value="Bayelsa">
+            Bayelsa
+          </option>
+          <option value="Benue">
+            Benue
+          </option>
+          <option value="Borno">
+            Borno
+          </option>
+          <option value="Cross River">
+            Cross River
+          </option>
+          <option value="Delta">
+            Delta
+          </option>
+          <option value="Ebonyi">
+            Ebonyi
+          </option>
+          <option value="Edo">
+            Edo
+          </option>
+          <option value="Ekiti">
+            Ekiti
+          </option>
+          <option value="Enugu">
+            Enugu
+          </option>
+          <option value="Gombe">
+            Gombe
+          </option>
+          <option value="Imo">
+            Imo
+          </option>
+          <option value="Jigawa">
+            Jigawa
+          </option>
+          <option value="Kaduna">
+            Kaduna
+          </option>
+          <option value="Kano">
+            Kano
+          </option>
+          <option value="Katsina">
+            Katsina
+          </option>
+          <option value="Kebbi">
+            Kebbi
+          </option>
+          <option value="Kogi">
+            Kogi
+          </option>
+          <option value="Kwara">
+            Kwara
+          </option>
+          <option value="Lagos">
+            Lagos
+          </option>
+          <option value="Nassarawa">
+            Nassarawa
+          </option>
+          <option value="Niger">
+            Niger
+          </option>
+          <option value="Ogun">
+            Ogun
+          </option>
+          <option value="Ondo">
+            Ondo
+          </option>
+          <option value="Osun">
+            Osun
+          </option>
+          <option value="Oyo">
+            Oyo
+          </option>
+          <option value="Plateau">
+            Plateau
+          </option>
+          <option value="Rivers">
+            Rivers
+          </option>
+          <option value="Sokoto">
+            Sokoto
+          </option>
+          <option value="Taraba">
+            Taraba
+          </option>
+          <option value="Yobe">
+            Yobe
+          </option>
+          <option value="Zamfara">
+            Zamfara
+          </option>
+        </select>
+        <label for="gender">Pick your gender: </label>
+        <input type="radio" name="gender" value="Male" id="male" class="gender"></input>
+        <label for="male" id="inline">Male</label>
+        <input type="radio" name="gender" value="Female" id="female" class="gender"></input>
+        <label for="female" id="inline">Female</label>
+        <label for="courses">Selected Courses: </label>
+        <input type="checkbox" id="javascript" name="javascript" class="courses"></input>
+        <label for="javascript" id="inline">JavaScript</label>
+        <input type="checkbox" id="c#" name="c#" class="courses"></input>
+        <label for="c#" id="inline">c#</label>
+        <input type="checkbox" id="Agile" name="Agile" class="courses"></input>
+        <label for="Agile" id="inline">Agile</label>
+        <input type="checkbox" id="dataScience" name="dataScience" class="courses"></input>
+        <label for="dataScience" id="inline">Data Science</label>
+        <input class="btn" type="submit" value="Submit">
+      </form>
+    </section>
+    <section class="container">
+      <table id="customers" style="display: none;">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+          <th>State</th>
+          <th>Gender</th>
+          <th>Selected Course</th>
+        </tr>
+      </table>
+    </section>
+    <footer>
+      <div>
+        Powered by PwC/Xerde Student 	&#169; 2022
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
