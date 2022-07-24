@@ -1,6 +1,6 @@
 # PwC-Group-Four-Assignment
 
-Deployed project link: https://royalboe.github.io/web-one-repo/
+Deployed project link: https://royalboe.github.io/web-one-repo/ </br>
 Deployed project repository: https://github.com/Royalboe/web-one-repo
 
 ## Members and their tasks
