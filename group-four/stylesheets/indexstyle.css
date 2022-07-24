@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.night-mode {
+  background-color: rgba(7, 5, 5, 0.836);
+}
+.light-color {
+  color: #fff;
+}
+
+.navbar {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  /* background-color: #dfa579; */
+  background-color: #e28c0bf5;
+  justify-content: space-between;
+  height: 100%;
+}
+.navbar img {
+  margin-top: -10px;
+  width: 70px;
+  height: 70px;
+  /* border: 1px solid black; */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: black;
+  /* background: lightblue; */
+}
+
+header {
+  /* background: #f4f4f4; */
+  /* padding: 1rem; */
+  width: 100%;
+  height: 90px;
+  /* text-align: center; */
+}
+
+.navbar ul {
+  list-style: none;
+  /* background: darkcyan; */
+  padding-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  /* width: 200px; */
+  display: block;
+  padding: 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.navbar a:hover {
+  background-color: #fff;
+  color: #e28c0bf5;
+}
+
+footer {
+  margin-top: 200px;
+  background-color: #e28c0bf5;
+  width: 100%;
+  padding: 40px 40px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 100%;
+}
+
+.footer ul:nth-child(1) {
+  margin-right: 15%;
+}
+.footer ul:nth-child(2) {
+  margin-right: 15%;
+}
+.footer ul:nth-child(3) {
+  margin-right: 15%;
+}
+
+.footer ul li {
+  list-style: none;
+  font-size: 18px;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+.footer ul li > b {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+footer div:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+footer div:nth-child(3) a {
+  margin: 0 5px;
+  font-size: 30px;
+}
+
+section#company {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background: url("../assets/Pwc__4.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: top left;
+}
+
+section#company div {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+}
+
+section#company #company-text {
+  /* text-align: left; */
+  left: 0;
+  padding-left: 50px;
+  /* border: 1px solid blue; */
+  height: 80px;
+  width: 100%;
+  /* border: 1px solid blue; */
+  background-color: transparent;
+  position: absolute;
+  bottom: 180px;
+  /* animation-name:slideup;
+  animation-duration:2s;
+  -webkit-animation-name:slideup;
+  -webkit-animation-duration:1s; */
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: slideup 2s ease 0.5s;
+  -webkit-animation: slideup 2s ease 0.5s;
+}
+
+section#company h1 {
+  font-size: 4vw;
+  color: #fff;
+  text-align: left;
+  padding-bottom: 20px;
+}
+section#company h2 {
+  font-size: 2vw;
+  font-weight: 100;
+  color: #fff;
+  margin-top: -20px;
+  width: 40%;
+  word-spacing: -2px;
+}
+
+/*animation that slides an element upwards*/
+@keyframes slideup {
+  0% {
+    opacity: 0;
+    bottom: 0;
+  }
+  100% {
+    opacity: 1;
+    bottom: 180px;
+  }
+}
+@-webkit-keyframes slideup {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section#about {
+  margin: 160px 0;
+}
+
+section#about > div:nth-child(1) {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 30px;
+}
+
+section#about > div:nth-child(2) {
+  display: flex;
+  /* height: 400px; */
+  /* border: 1px solid black; */
+  padding: 0 20px;
+}
+
+section#about p {
+  width: 300px;
+  height: 400px;
+  font-size: 30px;
+  font-weight: normal;
+  font-family: "Nunito", Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  color: slategrey;
+  word-spacing: -3px;
+  flex-wrap: wrap;
+  flex: 30%;
+  /* border: 1px solid black; */
+}
+
+section#about > div:nth-child(2) > img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  /* border: 1px solid black; */
+  margin-left: 20px;
+}
+
+section#about #image-set {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 400px;
+  /* border: 1px solid black; */
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+section#about #image-set img {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+}
+
+section#services {
+  margin: 200px 0;
+  padding: 0 20px;
+  display: flex;
+}
+
+section#services div:nth-child(1) img {
+  width: 400px;
+  height: 250px;
+}
+
+section#services div {
+  margin-left: 30px;
+}
+
+section#services div p {
+  font-family: "Nunito", Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section#services div img:hover {
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  transition: transform 0.3s ease;
+}
+
+section#services div:nth-child(1) {
+  margin-left: 0;
+}
+
+section#services div:nth-child(2) img {
+  width: 400px;
+  height: 250px;
+}
+section#services div:nth-child(3) img {
+  width: 400px;
+  height: 250px;
+}

@@ -1,0 +1,8 @@
+@media (max-width: 840px) {
+    .form {
+        width: 100%;
+    }
+    .table-wrapper {
+        width: 100%;
+    }
+}

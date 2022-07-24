@@ -1,0 +1,80 @@
+body{
+    background-color:rgb(132, 102, 62);
+    
+    
+}
+
+span{
+    
+    display: flex;
+    align-items: center;
+    
+} 
+
+
+
+table, th, td{
+    border: 1px solid;
+    color: green;
+}
+
+h2{
+    text-align: center;
+    color: black;
+}
+
+.container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+  }
+
+  #form{
+    
+        padding: 2rem;
+        background: rgb(212, 177, 131);
+  }
+
+  form label{
+    display: block;
+  }
+
+  form input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  form input[type='number'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;  
+  }
+
+  form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+
+  form .btn {
+    display: block;
+    text-align: center;
+    width: 30%;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px 35%;
+    flex: auto;
+    
+  }

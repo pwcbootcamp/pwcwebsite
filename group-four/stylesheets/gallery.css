@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    grid-template-columns:30% 35% 30% ;
+    grid-column-gap: 1em;
+    grid-row-gap:1em;
+    border-color: black;
+    margin-top: 15px;  
+    margin-left: 50px;
+    margin-right: 20px;
+    /* width: 100%; */
+    overflow: hidden;
+  }
+ 
+
+  .grid-item img{
+    border: 1px solid black;
+    object-fit: contain;
+    text-align: center;
+    
+  }

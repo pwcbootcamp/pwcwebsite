@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* body { */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* line-height: 1.6; */
+    /* color: black;
+  } */
+
+  /* p{
+    padding-bottom: 12px;
+  } */
+  .firstsection{
+    display: grid;
+    padding-bottom: 10px;
+    grid-template-columns: 20% 75%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin-top: 100px;
+  }
+
+  .firstsection >div{
+    /* background: #eee; */
+    padding: 1em;
+  }
+
+  .thirdsection{
+    display: grid;
+    grid-template-columns: 35% 30% 30%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .thirdsection>div{
+    padding: 1em;
+  }
+
+  .secondsection{
+    display: grid;
+    grid-template-columns: 20% 45% 30%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    overflow-x: hidden;
+  }
+
+  .secondsection >div{
+    /* background: #eee; */
+    padding: 1em;
+  }
+
+  /* img{
+    width: 350px;
+    height: 380px;
+  } */
+  /* .secondsec-col > img#one{
+    width: 350px;
+    height: 380px;
+  } */
+
+  .secondsec-col  img{
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+  }
+
+   .firstthird-col > img {
+       margin-top: 20px;
+       width: 70px;
+       height: 70px;
+   }
+  .secondthird-col > img {
+            margin-top: 20px;
+            width: 70px;
+            height: 70px;
+        }
+   .thirdthird-col > img {
+       margin-top: 20px;
+       width: 70px;
+       height: 70px;
+   }
+ h3{
+    text-align: center;
+    font-size: 40px;
+  }
+
+
+
+  /* .container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+  }
+  #form{
+    
+    padding: 2rem;
+    background: #F4F4F4;
+}
+
+form label{
+display: block;
+}
+
+form input[type='text'] {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+form input[type='number'] {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+form select {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+
+form .btn {
+display: block;
+text-align: center;
+width: 30%;
+padding: 10px 15px;
+border: 0;
+background: #333;
+color: #fff;
+border-radius: 5px;
+margin: 10px 35%;
+flex: auto;
+
+} */

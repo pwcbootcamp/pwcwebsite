@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap');
+
+
+/* To write variables */
+:root{
+    --custom-color: rgb(87, 81, 81);
+    --padding: 14px;
+    --btn-padding: 15px;
+    --big-font-size: 2.5em;
+    --medium-font-size: 1.2em;
+    --input-padding: 10px 25px;
+    --border-radius: 8px;
+    --margin-bottom: 15px;
+    --border: 1px solid rgb(3, 29, 37);
+    --margin-top: 15px;
+    --misc-color: steelblue;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.alt-header {
+    color: var(--misc-color);
+    text-align: center;
+    padding: var(--padding);
+    margin-top: var(--margin-top);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    padding: var(--input-padding);
+    border-radius: var(--border-radius);
+    border: var(--border);
+}
+
+.container {
+    width: 800px;
+    max-width: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: rgb(8, 61, 28);
+}
+
+.form {
+    width: 60%;
+    margin: 30px auto;
+}
+
+.form_group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: var(--margin-top);
+    margin-bottom: var(--margin-bottom);
+}
+
+.form-grp-label {
+    color: var(--custom-color);
+    font-size: var(--medium-font-size);
+    margin-bottom: var(--margin-bottom);
+}
+
+input::placeholder {
+    font-size: medium;
+}
+
+input:focus {
+    outline-color: rgb(40, 16, 129);
+}
+
+select {
+    padding: var(--input-padding);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    color: var(--custom-color);
+}
+
+.btn-submit {
+    border: none;
+    margin-top: var(--margin-top);
+    padding: var(--btn-padding);
+    border-radius: var(--border-radius);
+    background-color: var(--misc-color);
+    color: white;
+    font-size: var(--medium-font-size);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn-submit:hover{
+    background-color:rgb(3, 29, 37);
+}
+
+/* For Tables*/
+
+.table-wrapper {
+    width: 60%;
+    margin: 0 auto;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.table-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.heading {
+    text-align: center;
+    color: var(--misc-color);
+    margin-top: 40px;
+}
+
+table {
+    width: 100%;
+    margin-top: 50px;
+}
+td, th {
+    border: var(--border);
+    text-align: left;
+    padding: var(--padding);  
+}
+
+th {
+    text-align: center;
+}
+
+thead {
+    border: none;
+    background-color: var(--misc-color);
+}
