@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PwC Website </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        <div><img src="pwc1.png" height="50" width="50"> </div>
+        <div><h1>PWC Student Website<br></h1>
+        </div>
+        <div>
+        <a href="index.html">Home</a> |
+        <a href="aboutus.html">About Us</a> |
+        <a href="contactus.html">Contact Us</a> |
+        <a href="applicationform.html">Application Form</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="studentdata.html">Student Website</a>
+        <a id="darkMode"><img src="dark.png"></a>
+        </div>
+    </header> 
+    
+        <!-- <section class="container">
+        
+        <p> This is my first website created during my time in pwc learning software development.</p>
+        <img src = "pwc.png" width = "300" height= "200">
+        </section> -->
+        <section class="container">
+            <h1>Applicaton Form</h1>
+        <form id="my-form">
+            
+            <p>Fill in the form correctly</p>
+            
+            <label for="firstname"><b>First Name</b></label>
+            <input type="text" placeholder="Enter First Name" name="firstname" id="firstname" required><br>
+    
+            <label for="lastname"><b>Second Name</b></label>
+            <input type="text" placeholder="Enter Last name" name="lastname" id="lastname" required><br>
+    
+            <label for="age"><b>Age</b></label>
+            <input type="text" placeholder="Enter Age" name="age" id="age" required><br>
+            <label for="gender"><b>Gender</b></label>
+            <input name="gender" type="radio" class="gender" id="male" value="male"> Male   
+            <input name="gender" type="radio" class="gender" id="female" value="female"> Female
+    
+            <label for="State"><b>State</b></label>
+            <select name="state" id="state" required>
+                <option value="anambra" id="anambra" checked>Anambra</option>
+                <option value="ogun" id="ogun">Ogun</option>
+                <option value="osun" id="osun">Osun</option>
+                <option value="edo" id="edo">Edo</option>
+                <option value="abuja" id="abuja">Abuja</option>
+                <option value="adamawa"id="adamawa">Adamawa</option>
+                <option value="ondo">Ondo</option>
+                <option value="abia">Abia</option>
+                <option value="akwaIbom">Akwa Ibom</option>
+                <option value="bauchi">Bauchi</option>
+            </select><br>
+
+            <div class="msg"></div>
+            <div id ="course">
+                <input type="checkbox" name="courses" id="python" value="python"> Python</input><br>
+                
+                <input type="checkbox" name="courses" id="datascience" value="datascience">Data Science </input><br>
+                <!-- <label for="datascience"><b>Data Science</b></label> -->
+                    
+                <input type="checkbox" name="courses" id="javascript" value="javascript" >Javascript</input><br>
+                    <!-- <label for="javascript"><b>Javascript</b></label> -->
+                <input type="checkbox" name="courses" id="agile" value="agile">Agile</input><br>
+                <!-- <label for="agile"><b>Agile Methodology</b></label> -->
+                <input type="checkbox" name="courses" id="c#" value="c#">c#</input><br>
+                <!-- <label for="c#"><b>C#</b></label> -->
+                <input type="checkbox" name="courses" id="design"value="design" >design<br>
+                <!-- <label for="design"><b>Javascript</b></label>    -->
+            </div>
+        </div>
+            <input class ="btn" type="submit" value="Submit">
+
+        </form>
+        <ul id="tracks"></ul>
+    </section>
+    <footer>
+        <div>
+            <h5> Powered by  <a href="index.html"><img src="pwc1.png" height="50" width="50"></a></h5>        </div>
+        <div>
+            <p>About us </p>
+            <p>Contact us </p>
+            <p>Careers </p>
+            <p>Partnership </p>
+            <p>Legal </p>
+        </div>
+        <div>
+            <p>Connect With us </p>
+            <p> LinkedIn </p>
+            <p> Facebook </p>
+            <p>Instagram </p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    </body>
+</html>
